@@ -1,0 +1,22 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.more{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+
+
+}
+.more:hover{
+    background-color: #2e2e2e;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
