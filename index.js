@@ -22,7 +22,7 @@ const replaceTemplate = (template, item) => {
 
 try {
     template = fs.readFileSync('template.html', 'utf8');
-    main = fs.readFileSync('main.html', 'utf8');
+    main = fs.readFileSync('index.html', 'utf8');
     details=fs.readFileSync('productDetails.html', 'utf8');
 
     const data = fs.readFileSync('data.json', 'utf8');
